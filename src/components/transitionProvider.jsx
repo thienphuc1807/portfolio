@@ -27,9 +27,9 @@ const TransitionProvider = ({ children }) => {
                 />
                 <motion.div
                     className="fixed top-0 left-0 right-0 bottom-0 m-auto text-white text-8xl z-50 w-fit h-fit"
-                    initial={{ opacity: 1 }}
-                    animate={{ opacity: 0 }}
-                    exit={{ opacity: 0 }}
+                    initial={{ opacity: 1, display: "block" }}
+                    animate={{ opacity: 0, display: "none" }}
+                    exit={{ opacity: 0, display: "none" }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     {links.map((link) =>

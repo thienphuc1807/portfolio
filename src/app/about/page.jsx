@@ -54,6 +54,7 @@ const AboutPage = () => {
                                 src="/signature.png"
                                 fill
                                 className="object-contain fill-black"
+                                alt="Signature"
                             />
                         </div>
                     </div>
